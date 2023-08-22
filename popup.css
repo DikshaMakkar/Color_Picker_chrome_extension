@@ -1,0 +1,60 @@
+body {
+  background: #f1f5f9;
+}
+
+.wrapper {
+  width: 300px;
+  text-align: center;
+}
+
+.change-color-btn {
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  background: linear-gradient(to bottom, #ffcc00, #ff9900);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.change-color-btn:hover {
+  background: linear-gradient(to bottom, #ff9900, #ffcc00);
+}
+
+.change-color-btn.clicked {
+  animation: colorfulEffect 1s infinite;
+}
+
+@keyframes colorfulEffect {
+  0% {
+    background-color: #ffcc00;
+  }
+  50% {
+    background-color: #ff9900;
+  }
+  100% {
+    background-color: #ffcc00;
+    background-color:  rgb(82, 86, 89);
+  }
+}
+
+.color-grid {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+
+.selected-color{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.color-val{
+  margin-left: 5px;
+  font-weight: bold;
+}
