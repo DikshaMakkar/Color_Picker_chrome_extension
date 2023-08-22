@@ -6,6 +6,7 @@ This repo contains code for color picker chrome extension. This can be useful ha
 
 ![image](https://github.com/DikshaMakkar/Color_Picker_chrome_extension/assets/62770475/d65c0ac6-bbd5-490a-91e9-8e580fa35d70)
 
-You can fork this repo and customise your own color picker extension!
+You can fork this repo and customise your own color picker extension! ![picker_16](https://github.com/DikshaMakkar/Color_Picker_chrome_extension/assets/62770475/69fe8837-f758-4e7a-9576-84241c175413)
+
 
 
