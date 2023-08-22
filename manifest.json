@@ -14,7 +14,7 @@
     ],
     "options_page": "options.html",
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "index.html"
     },
     "icons": {
         "16": "/images/picker_16.png",
